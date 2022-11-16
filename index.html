@@ -17,8 +17,11 @@
         height: 100vh;
     }
 </style>
+<script>
+    var _theframe = document.getElementById("theframe");
+    _theframe.contentWindow.location.href = _theframe.src;
+</script>
 <body>
-    <iframe src="https://leodelgadodev-6d39d.web.app/" frameborder="0"></iframe>
-    
+    <iframe id="theframe" src="https://leodelgadodev-6d39d.web.app/" frameborder="0"></iframe>
 </body>
 </html>
